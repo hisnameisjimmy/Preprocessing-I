@@ -1,1 +1,225 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+#paragraphs {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 20px;
+}
+.container header {
+  margin: 30px 0;
+}
+.container header .name {
+  font-family: 'Vollkorn', serif;
+  font-size: 4.4rem;
+}
+.container header .links {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.container header .links a {
+  text-decoration: none;
+  color: #1B6AC2;
+}
+.container header .links a:hover {
+  color: #2A7FDC;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 500px) {
+  .container header .links a {
+    margin: 5px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container header .links {
+    flex-direction: column;
+  }
+}
+.container .summary h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #DCDCDC;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.container .summary p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.container .experience-type h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #DCDCDC;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.container .experience-type .subtext {
+  opacity: 0.6;
+}
+.container .experience-type .experience .main-title {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.container .experience-type .experience .sub-title {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.container .experience-type .experience ul {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin: 20px 0 20px 20px;
+  list-style-position: outside;
+  list-style-type: square;
+}
+.container .experience-type .experience ul li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin: 10px 0;
+}
